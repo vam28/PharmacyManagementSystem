@@ -9,7 +9,6 @@ This is a simple e-commerce platform designed for Pharmacy products built using 
 - Usage
 - Project Structure
 - Contributing
-- License
 
 ## Requirements
 
@@ -43,8 +42,9 @@ This project requires the following:
 ## Project Structure
 
 - `main.py`: The main Streamlit application file.
-- `product_operations.py`: Contains functions for product management.
-- `requirements.txt`: Lists the required Python packages.
+- `home.py`: Contains functions for customers to add, view, and delete products, and manage the shopping cart.
+- `managestock.py`: Contains functions for admin to manage products and categories.
+- `database.sql`: SQL script to set up the database schema.
 
 ## Contributing
 
